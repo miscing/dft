@@ -1,0 +1,3 @@
+Mel-frequency cepstrum could be used to look at similarities between two human audio signals
+
+alternatively: seperate the real and imaginary part of the fft results and then look at logistic regression(there might be something better) calculations to find correlations. Since the real and img parts correspond to the cos and sin aspects of the frequency (or how well the data matches the cos/sin), looking at relationships between these values throughout multiple audio signals could give surprisingly good recognizing markers of the data.
